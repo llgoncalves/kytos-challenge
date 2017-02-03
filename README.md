@@ -14,3 +14,17 @@ You can use Google or any another resource to finish this task, also please refe
 
 * Page 2: Specs about open flow headers;
 * Page 41: Specs about `OFPT_HELLO` messages.
+
+##Running
+    python parser.py
+
+##Help
+Usage: `parser.py [-h] [-f F]`
+
+Optional arguments:
+
+    -h, --help  show this help message and exit
+    -f F        Input file name 
+    
+Default input file name: `ofpt_hello.dat`
+
